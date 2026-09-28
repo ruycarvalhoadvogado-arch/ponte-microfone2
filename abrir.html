@@ -5,38 +5,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gestão RC Advogados</title>
 
-<!-- Este é o ícone que o iPhone usa no atalho da Tela de Início -->
+<!-- Ícone que o iPhone usa no atalho da Tela de Início -->
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="RC Advogados">
 
-<meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbzRv5rKzQONyUa-pGteMtX68maeaHl2zkkZAQz4eybCvbUCsSFqGqlQnORvV7gmhVU/exec">
-
 <style>
+  html, body { margin: 0; height: 100%; }
   body {
-    margin: 0;
-    height: 100vh;
+    background: #1E1608;
+    color: #F3E9D8;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #3B2A1D;
-    font-family: Arial, sans-serif;
-    color: #F2E4C3;
   }
-  .caixa { text-align: center; }
-  img { width: 72px; height: 72px; border-radius: 14px; margin-bottom: 14px; }
-  p { font-size: 14px; margin: 4px 0; }
-  a { color: #F2E4C3; }
+  .caixa { text-align: center; padding: 20px; }
+  img { width: 96px; height: 96px; border-radius: 20px; margin-bottom: 18px; }
+  h1 { font-size: 17px; margin: 0 0 6px 0; }
+  p { font-size: 13px; color: #B8A588; margin: 0 0 26px 0; }
+  a.botao {
+    display: inline-block;
+    background: #A9772A;
+    color: #1E1608;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 14px 32px;
+    border-radius: 8px;
+  }
 </style>
 </head>
 <body>
   <div class="caixa">
     <img src="apple-touch-icon.png" alt="RC Advogados">
-    <p>Abrindo o sistema...</p>
-    <p><a href="https://script.google.com/macros/s/AKfycbzRv5rKzQONyUa-pGteMtX68maeaHl2zkkZAQz4eybCvbUCsSFqGqlQnORvV7gmhVU/exec">Toque aqui se não abrir sozinho</a></p>
+    <h1>Gestão RC Advogados</h1>
+    <p>Toque no botão abaixo para entrar no sistema</p>
+    <a class="botao" href="https://script.google.com/macros/s/AKfycbzRv5rKzQONyUa-pGteMtX68maeaHl2zkkZAQz4eybCvbUCsSFqGqlQnORvV7gmhVU/exec">Abrir o sistema</a>
   </div>
-  <script>
-    window.location.replace("https://script.google.com/macros/s/AKfycbzRv5rKzQONyUa-pGteMtX68maeaHl2zkkZAQz4eybCvbUCsSFqGqlQnORvV7gmhVU/exec");
-  </script>
 </body>
 </html>
